@@ -4,6 +4,7 @@ from gameparts import Board
 def name():
     # Создать игровое поле - объект класса Board.
     game = Board()
+    print(type(game))
     # Отрисовать поле в терминале.
     game.display()
 
